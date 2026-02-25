@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "title": "MCS - 多言語コミュニケーションシステム",
+    "description": "言語の壁を瞬時に解消。日本、フィリピン、グローバルチーム間のシームレスな連携を、安全なワークスペース型多言語コミュニケーションプラットフォームで実現します。"
+  },
+  "navbar": {
+    "home": "ホーム",
+    "services": "サービス",
+    "aboutUs": "会社概要",
+    "contactUs": "お問い合わせ",
+    "language": "言語",
+    "en": "EN",
+    "ja": "JP",
+    "english": "English",
+    "japanese": "日本語"
+  },
+  "hero": {
+    "heading": "言語の壁を超える。",
+    "headingAccent": "瞬時に。",
+    "subheading": "世界中のチームとシームレスな多言語コミュニケーションをリアルタイム翻訳で実現します。",
+    "requestDemo": "デモを申し込む",
+    "exploreFeatures": "機能を見る",
+    "chatTitle": "多言語チャットシステム",
+    "japanese": "日本語",
+    "english": "英語",
+    "translating": "翻訳中..."
+  },
+  "challenge": {
+    "label": "課題",
+    "heading": "国境を越えたコミュニケーションの課題",
+    "subheading": "日本とフィリピン間で事業を展開する企業は、断片化されたツールと手動翻訳ワークフローによる日々の摩擦に直面しています。",
+    "cost": {
+      "title": "高い運用コスト",
+      "description": "通訳者やバイリンガルスタッフへの依存度が高く、予算が大幅に膨らみます。"
+    },
+    "delays": {
+      "title": "応答の遅延",
+      "description": "翻訳のボトルネックが、多言語チーム間のすべてのやり取りを遅くします。"
+    },
+    "miscommunication": {
+      "title": "誤解のリスク",
+      "description": "翻訳で失われるニュアンスが、サービス品質と顧客関係に直接影響します。"
+    },
+    "security": {
+      "title": "セキュリティの断片化",
+      "description": "複数の外部ツールの使用は、データ漏洩リスクとコンプライアンスギャップを生み出します。"
+    }
+  },
+  "advantage": {
+    "label": "ソリューション",
+    "heading": "MCSの強み",
+    "description": "MCSは、安全で隔離されたワークスペース内でリアルタイムの多言語コミュニケーションを実現します。チームは好みの言語でコミュニケーションを取り、システムが構造化されたチャネルとグループ内で即座に翻訳します—外部ツール不要、遅延なし、データ漏洩なし。"
+  },
+  "capabilities": {
+    "label": "プラットフォーム",
+    "heading": "コア機能",
+    "subheading": "国境を越えた企業コミュニケーションのために専用に構築されています。",
+    "realtime": {
+      "title": "リアルタイム多言語メッセージング",
+      "description": "チャネル、グループ、または個別のディスカッション内で、英語、日本語、中国語間の会話を即座に翻訳します。すべてのメッセージは各参加者の言語で配信されます。"
+    },
+    "workspace": {
+      "title": "ワークスペースベースのデータ隔離",
+      "description": "各組織は専用のワークスペース内で運用され、機密性を確保し、クライアント間のデータ漏洩を防ぎます。"
+    },
+    "control": {
+      "title": "構造化されたコミュニケーション管理",
+      "description": "役割ベースのアクセス権限を持つ、制御されたチャネルとセグメント化されたグループを通じて会話を管理します。"
+    },
+    "responsive": {
+      "title": "レスポンシブWebおよびモバイルアクセス",
+      "description": "複数の場所やデバイスで作業する分散チーム向けに最適化されたインターフェース。"
+    },
+    "security": {
+      "title": "エンタープライズグレードのセキュリティ",
+      "description": "暗号化された通信、権限管理、エンタープライズ環境向けに構築された安全なクラウドインフラストラクチャ。"
+    }
+  },
+  "businessValue": {
+    "label": "効果",
+    "heading": "組織へのビジネス価値",
+    "reduceCost": {
+      "title": "運用コストの削減",
+      "description": "手動翻訳や追加のバイリンガルスタッフへの依存を最小限に抑えます。"
+    },
+    "improveSpeed": {
+      "title": "応答速度の向上",
+      "description": "通訳層や引き継ぎを待たずに、直接的なコミュニケーションを可能にします。"
+    },
+    "enhanceQuality": {
+      "title": "サービス品質の向上",
+      "description": "地域や言語を超えて、メッセージングの一貫性と正確性を維持します。"
+    },
+    "collaboration": {
+      "title": "国境を越えた連携の強化",
+      "description": "シームレスなリアルタイムコミュニケーションとコラボレーションで、本社と海外チームを楽に連携させます。"
+    },
+    "confidentiality": {
+      "title": "顧客機密の保護",
+      "description": "専用のワークスペースが、エンタープライズグレードのアクセス制御により、安全で隔離された情報管理を保証します。"
+    }
+  },
+  "useCase": {
+    "label": "実例",
+    "heading": "日本-フィリピン間の業務連携",
+    "japanese": "日本語",
+    "english": "英語",
+    "contentHeading": "シームレスなコミュニケーション、",
+    "contentHeadingAccent": "摩擦ゼロ",
+    "description": "フィリピンのカスタマーサポートチームを管理する日本の本社が、MCSを使用して言語による遅延を完全に解消します。",
+    "autoTranslatedEnglish": "自動翻訳 · 英語",
+    "autoTranslatedJapanese": "自動翻訳 · 日本語",
+    "instantTranslation": "MCS 即時翻訳",
+    "steps": {
+      "step1": "日本人マネージャーが日本語でコミュニケーション",
+      "step2": "フィリピンのチームメンバーが英語で返信",
+      "step3": "同じワークスペース内でメッセージがリアルタイムで翻訳される",
+      "step4": "チャネルが運用、QA、クライアント議論を分離",
+      "step5": "機密データは企業ワークスペース内で隔離されたまま"
+    }
+  },
+  "comparison": {
+    "label": "MCSの理由",
+    "heading": "MCS vs 従来のツール",
+    "tableHeaders": {
+      "feature": "機能",
+      "mcs": "MCSプラットフォーム",
+      "traditional": "従来のチャットツール"
+    },
+    "rows": {
+      "translation": {
+        "feature": "リアルタイム多言語翻訳",
+        "mcs": "ネイティブに組み込み",
+        "traditional": "外部ツールが必要"
+      },
+      "isolation": {
+        "feature": "ワークスペースレベルの隔離",
+        "mcs": "組織ごとに専用",
+        "traditional": "共有環境"
+      },
+      "optimization": {
+        "feature": "国境を越えた最適化",
+        "mcs": "日本-フィリピン運用向けに設計",
+        "traditional": "汎用目的のみ"
+      },
+      "confidentiality": {
+        "feature": "データ機密性管理",
+        "mcs": "構造化されたアクセス管理",
+        "traditional": "限定的"
+      },
+      "structure": {
+        "feature": "エンタープライズメッセージング構造",
+        "mcs": "チャネル + グループ",
+        "traditional": "基本的"
+      }
+    }
+  },
+  "cta": {
+    "heading": "国境を越えたコミュニケーションを変革",
+    "description": "チームが言語の壁なしにグローバルに連携できるようにします。MCSが組織をどのようにサポートできるかをご確認ください。",
+    "requestDemo": "デモを申し込む"
+  },
+  "footer": {
+    "copyright": "© 2026 MCS – Easycom Japan Philippines Inc. All rights reserved."
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "title": "MCS - Multilingual Communication System",
+    "description": "Break language barriers instantly. Enable seamless collaboration between Japan, the Philippines, and global teams through a secure, workspace-based multilingual communication platform."
+  },
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "language": "Language",
+    "en": "EN",
+    "ja": "JP",
+    "english": "English",
+    "japanese": "日本語"
+  },
+  "hero": {
+    "heading": "Break Language Barriers.",
+    "headingAccent": "Instantly.",
+    "subheading": "Enable seamless multilingual communication with real-time translation for teams around the world.",
+    "requestDemo": "Request a Demo",
+    "exploreFeatures": "Explore Features",
+    "chatTitle": "Multilingual Chat System",
+    "japanese": "Japanese",
+    "english": "English",
+    "translating": "Translating..."
+  },
+  "challenge": {
+    "label": "The Problem",
+    "heading": "Cross-Border Communication Is Broken",
+    "subheading": "Companies operating between Japan and the Philippines face daily friction from fragmented tools and manual translation workflows.",
+    "cost": {
+      "title": "High Operational Costs",
+      "description": "Heavy reliance on interpreters and bilingual staffing inflates budgets significantly."
+    },
+    "delays": {
+      "title": "Delayed Responses",
+      "description": "Translation bottlenecks slow down every interaction between multilingual teams."
+    },
+    "miscommunication": {
+      "title": "Miscommunication Risk",
+      "description": "Nuances lost in translation directly impact service quality and client relationships."
+    },
+    "security": {
+      "title": "Security Fragmentation",
+      "description": "Using multiple external tools creates data leakage risks and compliance gaps."
+    }
+  },
+  "advantage": {
+    "label": "The Solution",
+    "heading": "The MCS Advantage",
+    "description": "MCS enables real-time multilingual communication within secure, isolated workspaces. Teams communicate in their preferred language while the system translates instantly within structured channels and groups — no external tools, no delays, no data exposure."
+  },
+  "capabilities": {
+    "label": "Platform",
+    "heading": "Core Capabilities",
+    "subheading": "Purpose-built for cross-border enterprise communication.",
+    "realtime": {
+      "title": "Real-Time Multilingual Messaging",
+      "description": "Instantly translate conversations across English, Japanese, and Chinese within channels, groups, or individual discussions. Every message is delivered in each participant's language."
+    },
+    "workspace": {
+      "title": "Workspace-Based Data Isolation",
+      "description": "Each organization operates within a dedicated workspace ensuring confidentiality and preventing cross-client data exposure."
+    },
+    "control": {
+      "title": "Structured Communication Control",
+      "description": "Manage conversations through controlled channels and segmented groups with role-based access permissions."
+    },
+    "responsive": {
+      "title": "Responsive Web & Mobile Access",
+      "description": "Optimized interface for distributed teams working across multiple locations and devices."
+    },
+    "security": {
+      "title": "Enterprise-Grade Security",
+      "description": "Encrypted communication, permission management, and secure cloud infrastructure built for enterprise environments."
+    }
+  },
+  "businessValue": {
+    "label": "Impact",
+    "heading": "Business Value for Organizations",
+    "reduceCost": {
+      "title": "Reduce Operational Cost",
+      "description": "Minimize reliance on manual translation and additional bilingual staffing overhead."
+    },
+    "improveSpeed": {
+      "title": "Improve Response Speed",
+      "description": "Enable direct communication without waiting for interpretation layers or handoffs."
+    },
+    "enhanceQuality": {
+      "title": "Enhance Service Quality",
+      "description": "Maintain consistency and accuracy in messaging across regions and languages."
+    },
+    "collaboration": {
+      "title": "Strengthen Cross-Border Collaboration",
+      "description": "Align headquarters and overseas teams effortlessly with seamless, real-time communication and collaboration."
+    },
+    "confidentiality": {
+      "title": "Protect Client Confidentiality",
+      "description": "Dedicated workspaces ensure secure, isolated information handling with enterprise-grade access controls."
+    }
+  },
+  "useCase": {
+    "label": "In Practice",
+    "heading": "Japan–Philippines Operational Collaboration",
+    "japanese": "Japanese",
+    "english": "English",
+    "contentHeading": "Seamless Communication,",
+    "contentHeadingAccent": "Zero Friction",
+    "description": "A Japanese headquarters managing a customer support team in the Philippines uses MCS to eliminate language-driven delays entirely.",
+    "autoTranslatedEnglish": "Auto-translated · English",
+    "autoTranslatedJapanese": "自動翻訳 · 日本語",
+    "instantTranslation": "MCS instant translation",
+    "steps": {
+      "step1": "Japanese managers communicate in Japanese",
+      "step2": "Philippine team members respond in English",
+      "step3": "Messages are translated in real time within the same workspace",
+      "step4": "Channels separate operations, QA, and client discussions",
+      "step5": "Confidential data remains isolated within the company workspace"
+    }
+  },
+  "comparison": {
+    "label": "Why MCS",
+    "heading": "MCS vs Traditional Tools",
+    "tableHeaders": {
+      "feature": "Feature",
+      "mcs": "MCS Platform",
+      "traditional": "Traditional Chat Tools"
+    },
+    "rows": {
+      "translation": {
+        "feature": "Real-Time Multilingual Translation",
+        "mcs": "Built-in natively",
+        "traditional": "Requires external tools"
+      },
+      "isolation": {
+        "feature": "Workspace-Level Isolation",
+        "mcs": "Dedicated per organization",
+        "traditional": "Shared environments"
+      },
+      "optimization": {
+        "feature": "Cross-Border Optimization",
+        "mcs": "Designed for JP–PH ops",
+        "traditional": "General-purpose only"
+      },
+      "confidentiality": {
+        "feature": "Data Confidentiality Control",
+        "mcs": "Structured access mgmt",
+        "traditional": "Limited"
+      },
+      "structure": {
+        "feature": "Enterprise Messaging Structure",
+        "mcs": "Channels + Groups",
+        "traditional": "Basic"
+      }
+    }
+  },
+  "cta": {
+    "heading": "Transform Your Cross-Border Communication",
+    "description": "Empower your teams to collaborate globally without language barriers. Discover how MCS can support your organization.",
+    "requestDemo": "Request a Demo"
+  },
+  "footer": {
+    "copyright": "© 2026 MCS – Easycom Japan Philippines Inc. All rights reserved."
+  }
+}
