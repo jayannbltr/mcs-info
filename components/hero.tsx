@@ -56,16 +56,16 @@ export function Hero() {
           <div className="mt-5 flex flex-col items-center gap-3.5 sm:mt-8 sm:flex-row sm:gap-4 lg:justify-start">
             <a
               href="#demo"
-              className="inline-flex w-full items-center justify-center gap-2.5 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg sm:w-auto sm:px-7 sm:py-3.5 sm:text-base"
+              className= "inline-flex w-full items-center justify-center gap-2.5 rounded-xl border-2 border-primary bg-transparent px-5 py-2.5 text-sm font-semibold text-primary shadow-sm transition-all hover:bg-primary/5 hover:-translate-y-0.5 hover:shadow-lg sm:w-auto sm:px-7 sm:py-3 sm:text-base"
             >
               Request a Demo
               <ArrowRight className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
             </a>
             <a
-              href="#capabilities"
-              className="inline-flex w-full items-center justify-center gap-2.5 rounded-full border-2 border-primary bg-transparent px-5 py-2.5 text-sm font-semibold text-primary transition-all hover:bg-primary/5 sm:w-auto sm:px-7 sm:py-3 sm:text-base"
+              href="#partner"
+              className="inline-flex w-full items-center justify-center gap-2.5 rounded-xl bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg sm:w-auto sm:px-7 sm:py-3.5 sm:text-base"
             >
-              Explore Features
+              Apply for Founding Partner Program
             </a>
           </div>
         </div>
@@ -138,23 +138,37 @@ export function Hero() {
         >
           {/* World Globe Background */}
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-            <svg className="h-[400px] w-[400px] opacity-[0.08] sm:h-[500px] sm:w-[500px] md:h-[600px] md:w-[600px] lg:h-[700px] lg:w-[700px] xl:h-[850px] xl:w-[850px]" viewBox="0 0 400 400" fill="none">
-              {/* Globe circle */}
-              <circle cx="200" cy="200" r="180" stroke="currentColor" strokeWidth="1.5" className="text-primary" />
+            {/* Glow effect behind globe */}
+            <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-[420px] w-[420px] sm:h-[520px] sm:w-[520px] md:h-[620px] md:w-[620px] lg:h-[720px] lg:w-[720px] xl:h-[870px] xl:w-[870px] rounded-full bg-primary/5 blur-3xl" />
+            <svg className="relative h-[400px] w-[400px] opacity-[0.15] sm:h-[500px] sm:w-[500px] md:h-[600px] md:w-[600px] lg:h-[700px] lg:w-[700px] xl:h-[850px] xl:w-[850px]" viewBox="0 0 400 400" fill="none">
+              {/* Gradient definitions for 3D effect */}
+              <defs>
+                <radialGradient id="globeGradient" cx="35%" cy="35%">
+                  <stop offset="0%" stopColor="currentColor" stopOpacity="0.3" />
+                  <stop offset="50%" stopColor="currentColor" stopOpacity="0.15" />
+                  <stop offset="100%" stopColor="currentColor" stopOpacity="0.05" />
+                </radialGradient>
+              </defs>
 
-              {/* Latitude lines */}
-              <ellipse cx="200" cy="200" rx="180" ry="140" stroke="currentColor" strokeWidth="0.8" className="text-primary opacity-60" />
-              <ellipse cx="200" cy="200" rx="180" ry="90" stroke="currentColor" strokeWidth="0.8" className="text-primary opacity-60" />
-              <ellipse cx="200" cy="200" rx="180" ry="45" stroke="currentColor" strokeWidth="0.8" className="text-primary opacity-60" />
+              {/* Globe sphere with gradient fill for 3D effect */}
+              <circle cx="200" cy="200" r="180" fill="url(#globeGradient)" className="text-primary" />
 
-              {/* Longitude lines */}
-              <ellipse cx="200" cy="200" rx="140" ry="180" stroke="currentColor" strokeWidth="0.8" className="text-primary opacity-60" />
-              <ellipse cx="200" cy="200" rx="90" ry="180" stroke="currentColor" strokeWidth="0.8" className="text-primary opacity-60" />
-              <ellipse cx="200" cy="200" rx="45" ry="180" stroke="currentColor" strokeWidth="0.8" className="text-primary opacity-60" />
+              {/* Globe circle outline */}
+              <circle cx="200" cy="200" r="180" stroke="currentColor" strokeWidth="1.5" className="text-primary" fill="none" />
 
-              {/* Equator and Prime Meridian */}
-              <line x1="20" y1="200" x2="380" y2="200" stroke="currentColor" strokeWidth="1" className="text-primary opacity-40" />
-              <line x1="200" y1="20" x2="200" y2="380" stroke="currentColor" strokeWidth="1" className="text-primary opacity-40" />
+              {/* Latitude lines (horizontal) */}
+              <ellipse cx="200" cy="200" rx="180" ry="140" stroke="currentColor" strokeWidth="0.8" className="text-primary opacity-80" fill="none" />
+              <ellipse cx="200" cy="200" rx="180" ry="90" stroke="currentColor" strokeWidth="0.8" className="text-primary opacity-80" fill="none" />
+              <ellipse cx="200" cy="200" rx="180" ry="45" stroke="currentColor" strokeWidth="0.8" className="text-primary opacity-80" fill="none" />
+
+              {/* Longitude lines (vertical) */}
+              <ellipse cx="200" cy="200" rx="140" ry="180" stroke="currentColor" strokeWidth="0.8" className="text-primary opacity-80" fill="none" />
+              <ellipse cx="200" cy="200" rx="90" ry="180" stroke="currentColor" strokeWidth="0.8" className="text-primary opacity-80" fill="none" />
+              <ellipse cx="200" cy="200" rx="45" ry="180" stroke="currentColor" strokeWidth="0.8" className="text-primary opacity-80" fill="none" />
+
+              {/* Equator and Prime Meridian (main grid lines) */}
+              <line x1="20" y1="200" x2="380" y2="200" stroke="currentColor" strokeWidth="0.8" className="text-primary opacity-70" />
+              <line x1="200" y1="20" x2="200" y2="380" stroke="currentColor" strokeWidth="0.8" className="text-primary opacity-70" />
 
               {/* Continent outlines - simplified */}
               <path d="M 250 150 Q 270 140 280 160 L 290 170 Q 285 180 275 175 L 260 170 Z" fill="currentColor" className="text-primary opacity-30" />
@@ -177,16 +191,16 @@ export function Hero() {
             </svg>
 
             {/* Flags around the globe */}
-            <div className="absolute left-[5%] top-[15%] text-2xl opacity-20 xl:text-3xl">🇯🇵</div>
-            <div className="absolute right-[8%] top-[20%] text-2xl opacity-20 xl:text-3xl">🇺🇸</div>
-            <div className="absolute left-[12%] top-[45%] text-2xl opacity-20 xl:text-3xl">🇩🇪</div>
-            <div className="absolute right-[10%] top-[50%] text-2xl opacity-20 xl:text-3xl">🇬🇧</div>
-            <div className="absolute left-[8%] bottom-[20%] text-2xl opacity-20 xl:text-3xl">🇫🇷</div>
-            <div className="absolute right-[6%] bottom-[15%] text-2xl opacity-20 xl:text-3xl">🇪🇸</div>
-            <div className="absolute left-[40%] top-[8%] text-2xl opacity-20 xl:text-3xl">🇻🇳</div>
-            <div className="absolute right-[35%] bottom-[10%] text-2xl opacity-20 xl:text-3xl">🇵🇭</div>
-            <div className="absolute left-[18%] top-[30%] text-xl opacity-15 xl:text-2xl">🇨🇳</div>
-            <div className="absolute right-[20%] top-[35%] text-xl opacity-15 xl:text-2xl">🇰🇷</div>
+            <div className="absolute left-[5%] top-[15%] text-3xl opacity-40 xl:text-4xl">🇯🇵</div>
+            <div className="absolute right-[8%] top-[20%] text-3xl opacity-40 xl:text-4xl">🇺🇸</div>
+            <div className="absolute left-[12%] top-[45%] text-3xl opacity-40 xl:text-4xl">🇩🇪</div>
+            <div className="absolute right-[10%] top-[50%] text-3xl opacity-40 xl:text-4xl">🇬🇧</div>
+            <div className="absolute left-[8%] bottom-[20%] text-3xl opacity-40 xl:text-4xl">🇫🇷</div>
+            <div className="absolute right-[6%] bottom-[15%] text-3xl opacity-40 xl:text-4xl">🇪🇸</div>
+            <div className="absolute left-[40%] top-[8%] text-3xl opacity-40 xl:text-4xl">🇻🇳</div>
+            <div className="absolute right-[35%] bottom-[10%] text-3xl opacity-40 xl:text-4xl">🇵🇭</div>
+            <div className="absolute left-[18%] top-[30%] text-3xl opacity-40 xl:text-4xl">🇨🇳</div>
+            <div className="absolute right-[20%] top-[35%] text-3xl opacity-40 xl:text-4xl">🇰🇷</div>
           </div>
 
           {/* Desktop Monitor Mockup */}

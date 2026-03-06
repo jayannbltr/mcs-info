@@ -114,3 +114,18 @@ html {
 .animate-float {
   animation: float 3s ease-in-out infinite;
 }
+
+@keyframes flag-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.6;
+  }
+}
+
+.animate-flag-pulse {
+  animation: flag-pulse 3s ease-in-out infinite;
+}

@@ -126,7 +126,7 @@ export function Navbar() {
 
           <a
             href="#contact"
-            className="inline-flex items-center rounded-md bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:bg-primary/90"
+            className="inline-flex items-center rounded-xl bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:bg-primary/90"
           >
             {t("contactUs")}
           </a>
@@ -196,7 +196,7 @@ export function Navbar() {
             <a
               href="#contact"
               onClick={() => setMobileOpen(false)}
-              className="mt-3 rounded-md bg-primary px-5 py-2.5 text-center text-sm font-semibold text-primary-foreground"
+              className="mt-3 rounded-xl bg-primary px-5 py-2.5 text-center text-sm font-semibold text-primary-foreground"
             >
               {t("contactUs")}
             </a>
