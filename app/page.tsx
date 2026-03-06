@@ -6,6 +6,7 @@ import {
   CapabilitiesSectionTranslated,
   BusinessValueSectionTranslated,
   UseCaseSectionTranslated,
+  FoundingPartnerSectionTranslated,
   ComparisonSectionTranslated,
   CtaSectionTranslated,
   FooterTranslated
@@ -21,6 +22,7 @@ export default function Page() {
       <CapabilitiesSectionTranslated />
       <BusinessValueSectionTranslated />
       <UseCaseSectionTranslated />
+      <FoundingPartnerSectionTranslated />
       <ComparisonSectionTranslated />
       <CtaSectionTranslated />
       <FooterTranslated />

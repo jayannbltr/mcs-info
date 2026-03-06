@@ -19,7 +19,7 @@
     "headingAccent": "Instantly.",
     "subheading": "Enable seamless multilingual communication with real-time translation for teams around the world.",
     "requestDemo": "Request a Demo",
-    "exploreFeatures": "Explore Features",
+    "exploreFeatures": "Apply for Partner Program",
     "chatTitle": "Multilingual Chat System",
     "japanese": "Japanese",
     "english": "English",
@@ -119,6 +119,21 @@
       "step5": "Confidential data remains isolated within the company workspace"
     }
   },
+  "foundingPartner": {
+    "label": "Limited Opportunity",
+    "heading": "Become a Founding Partner of Chateaze",
+    "description": "We are inviting a limited number of organizations to participate in the MCS Founding Partner Program and gain early access to our multilingual communication platform designed for cross-border collaboration.",
+    "benefitsHeading": "Selected partners will receive:",
+    "benefits": {
+      "discount": "30% discount for the first 3 months",
+      "earlyAccess": "Early access to the Chateaze platform",
+      "support": "Dedicated onboarding support",
+      "influence": "Opportunity to influence future product development"
+    },
+    "limitedNotice": "Limited to the first 10 qualified companies.",
+    "applyNotice": "Apply now to secure your spot.",
+    "applyNow": "Apply for Early Access"
+  },
   "comparison": {
     "label": "Why MCS",
     "heading": "MCS vs Traditional Tools",
@@ -158,7 +173,8 @@
   "cta": {
     "heading": "Transform Your Cross-Border Communication",
     "description": "Empower your teams to collaborate globally without language barriers. Discover how MCS can support your organization.",
-    "requestDemo": "Request a Demo"
+    "requestDemo": "Request a Demo",
+    "applyPartner": "Apply for Partner Program"
   },
   "footer": {
     "copyright": "© 2026 MCS – Easycom Japan Philippines Inc. All rights reserved."

@@ -82,6 +82,7 @@ export function AdvantageSectionTranslated() {
 // Capabilities Section
 export function CapabilitiesSectionTranslated() {
   const t = useTranslations("capabilities")
+  const tCta = useTranslations("cta")
 
   const capabilities = [
     {
@@ -151,6 +152,18 @@ export function CapabilitiesSectionTranslated() {
             </ScrollReveal>
           ))}
         </div>
+
+        <ScrollReveal delay={400}>
+          <div className="mt-10 text-center">
+            <a
+              href="#demo"
+              className="inline-flex items-center gap-2.5 rounded-xl bg-primary px-8 py-3.5 text-base font-semibold text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
+            >
+              {tCta("requestDemo")}
+              <ArrowRight className="h-4 w-4" />
+            </a>
+          </div>
+        </ScrollReveal>
       </div>
     </section>
   )
@@ -362,6 +375,111 @@ export function UseCaseSectionTranslated() {
   )
 }
 
+// Founding Partner Section
+export function FoundingPartnerSectionTranslated() {
+  const t = useTranslations("foundingPartner")
+
+  const benefits = [
+    t("benefits.discount"),
+    t("benefits.earlyAccess"),
+    t("benefits.support"),
+    t("benefits.influence"),
+  ]
+
+  return (
+    <section id="partner" className="py-24 lg:py-28" style={{ backgroundColor: '#F8E7E6' }}>
+      <div className="mx-auto max-w-6xl px-6 lg:px-8">
+        <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
+          {/* Left Column - Main Content */}
+          <ScrollReveal>
+            <div>
+              <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-[0.15em] text-primary">
+                {t("label")}
+              </span>
+              <h2 className="mb-5 font-serif text-3xl tracking-tight text-foreground lg:text-4xl xl:text-5xl">
+                {t("heading").split("Chateaze").map((part, i, arr) => (
+                  i < arr.length - 1 ? (
+                    <span key={i}>
+                      {part}
+                      <span className="text-primary">Chateaze</span>
+                    </span>
+                  ) : part
+                ))}
+              </h2>
+              <p className="text-base leading-relaxed text-muted-foreground lg:text-lg">
+                {t("description").includes("Founding Partner Program")
+                  ? t("description").split("Founding Partner Program").map((part, i, arr) => (
+                      i < arr.length - 1 ? (
+                        <span key={i}>
+                          {part}
+                          <span className="font-bold">Founding Partner Program</span>
+                        </span>
+                      ) : part
+                    ))
+                  : t("description").split("創設パートナープログラム").map((part, i, arr) => (
+                      i < arr.length - 1 ? (
+                        <span key={i}>
+                          {part}
+                          <span className="font-bold">創設パートナープログラム</span>
+                        </span>
+                      ) : part
+                    ))
+                }
+              </p>
+            </div>
+          </ScrollReveal>
+
+          {/* Right Column - Benefits Card */}
+          <ScrollReveal delay={100}>
+            <div className="relative overflow-hidden rounded-3xl border border-border bg-white p-8 lg:p-10 shadow-lg">
+              <div className="absolute left-0 right-0 top-0 h-0.5 bg-primary" />
+
+              <h3 className="mb-6 text-lg font-semibold text-foreground">
+                {t("benefitsHeading")}
+              </h3>
+
+              <div className="space-y-4 mb-8">
+                {benefits.map((benefit, i) => (
+                  <div key={i} className="flex items-start gap-3">
+                    <div className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500">
+                      <Check className="h-3.5 w-3.5 text-white" />
+                    </div>
+                    <span className="text-sm leading-relaxed text-muted-foreground lg:text-base">
+                      {i === 0 ? (
+                        <>
+                          <span className="font-bold">30% discount for the first 3 months</span>
+                        </>
+                      ) : (
+                        benefit
+                      )}
+                    </span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mb-6 rounded-xl bg-secondary p-4">
+                <p className="text-sm font-semibold text-foreground">
+                  {t("limitedNotice")}
+                </p>
+                <p className="mt-1 text-sm text-muted-foreground">
+                  {t("applyNotice")}
+                </p>
+              </div>
+
+              <a
+                href="#partner"
+                className="inline-flex items-center gap-2.5 rounded-xl bg-primary px-8 py-3.5 text-base font-semibold text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
+              >
+                {t("applyNow")}
+              </a>
+            </div>
+          </ScrollReveal>
+        </div>
+      </div>
+    </section>
+  )
+}
+
 // Comparison Section
 export function ComparisonSectionTranslated() {
   const t = useTranslations("comparison")
@@ -405,7 +523,7 @@ export function ComparisonSectionTranslated() {
   ]
 
   return (
-    <section id="compare" className="border-t border-border py-24 lg:py-28">
+    <section id="compare" className="border-t border-border pt-24 pb-16 lg:pt-28 lg:pb-20">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
         <ScrollReveal>
           <div className="mx-auto mb-14 max-w-2xl text-center">
@@ -475,7 +593,7 @@ export function CtaSectionTranslated() {
   const t = useTranslations("cta")
 
   return (
-    <section id="demo" className="py-16 md:py-20 lg:py-32">
+    <section id="demo" className="pt-12 pb-16 md:pt-16 md:pb-20 lg:pt-20 lg:pb-32">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
         <ScrollReveal>
           <div className="relative overflow-hidden rounded-3xl bg-primary p-6 md:p-10 lg:p-16 text-center">
@@ -486,12 +604,19 @@ export function CtaSectionTranslated() {
               <p className="mx-auto mt-6 md:mt-8 lg:mt-10 max-w-lg text-sm md:text-base lg:text-lg leading-relaxed text-primary-foreground/80">
                 {t("description")}
               </p>
-              <div className="mt-6 md:mt-8 lg:mt-9">
+              <div className="mt-6 md:mt-8 lg:mt-9 flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
                   href="#demo"
                   className="inline-flex items-center gap-2.5 rounded-xl bg-card px-6 py-3 text-sm md:px-8 md:py-3.5 md:text-base font-semibold text-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
                 >
                   {t("requestDemo")}
+                  <ArrowRight className="h-4 w-4" />
+                </a>
+                <a
+                  href="#partner"
+                  className="inline-flex items-center gap-2.5 rounded-xl border-2 border-primary-foreground bg-transparent px-6 py-3 text-sm md:px-8 md:py-3.5 md:text-base font-semibold text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:bg-primary-foreground/10 hover:shadow-lg"
+                >
+                  {t("applyPartner")}
                   <ArrowRight className="h-4 w-4" />
                 </a>
               </div>

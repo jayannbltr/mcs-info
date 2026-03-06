@@ -19,7 +19,7 @@
     "headingAccent": "瞬時に。",
     "subheading": "世界中のチームとシームレスな多言語コミュニケーションをリアルタイム翻訳で実現します。",
     "requestDemo": "デモを申し込む",
-    "exploreFeatures": "機能を見る",
+    "exploreFeatures": "創設パートナープログラムに申し込む",
     "chatTitle": "多言語チャットシステム",
     "japanese": "日本語",
     "english": "英語",
@@ -119,6 +119,21 @@
       "step5": "機密データは企業ワークスペース内で隔離されたまま"
     }
   },
+  "foundingPartner": {
+    "label": "限定機会",
+    "heading": "Chateazeの創設パートナーになる",
+    "description": "私たちは、MCS創設パートナープログラムに参加し、国境を越えたコラボレーション向けに設計された多言語コミュニケーションプラットフォームへの早期アクセスを得る、限られた数の組織を招待しています。",
+    "benefitsHeading": "選ばれたパートナーが受けられる特典:",
+    "benefits": {
+      "discount": "最初の3ヶ月間30%割引",
+      "earlyAccess": "Chateazeプラットフォームへの早期アクセス",
+      "support": "専用のオンボーディングサポート",
+      "influence": "将来の製品開発に影響を与える機会"
+    },
+    "limitedNotice": "最初の10社の適格企業に限定。",
+    "applyNotice": "今すぐお申し込みください。",
+    "applyNow": "今すぐ申し込む"
+  },
   "comparison": {
     "label": "MCSの理由",
     "heading": "MCS vs 従来のツール",
@@ -158,7 +173,8 @@
   "cta": {
     "heading": "国境を越えたコミュニケーションを変革",
     "description": "チームが言語の壁なしにグローバルに連携できるようにします。MCSが組織をどのようにサポートできるかをご確認ください。",
-    "requestDemo": "デモを申し込む"
+    "requestDemo": "デモを申し込む",
+    "applyPartner": "創設パートナープログラムに申し込む"
   },
   "footer": {
     "copyright": "© 2026 MCS – Easycom Japan Philippines Inc. All rights reserved."
