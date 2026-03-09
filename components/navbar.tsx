@@ -63,7 +63,7 @@ export function Navbar() {
           <ul className="flex items-center gap-6">
             <li>
               <a
-                href="#"
+                href="https://www.easycom-japan-phils.com/"
                 className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
               >
                 {t("home")}
@@ -71,7 +71,7 @@ export function Navbar() {
             </li>
             <li>
               <a
-                href="#services"
+                href="https://www.easycom-japan-phils.com/contact/"
                 className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
               >
                 {t("services")}
@@ -79,7 +79,7 @@ export function Navbar() {
             </li>
             <li>
               <a
-                href="#about"
+                href="https://www.easycom-japan-phils.com/about/"
                 className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
               >
                 {t("aboutUs")}
