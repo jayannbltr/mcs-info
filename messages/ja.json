@@ -178,5 +178,223 @@
   },
   "footer": {
     "copyright": "© 2026 MCS – Easycom Japan Philippines Inc. All rights reserved."
+  },
+  "partnerProgram": {
+    "hero": {
+      "badge": "創設パートナープログラム",
+      "heading": "MCSの",
+      "headingAccent": "創設パートナー",
+      "headingEnd": "になる",
+      "subheading": "MCSプラットフォームのパイロット立ち上げに参加し、多言語コラボレーションの未来を形作る限定的な組織グループに参加してください。",
+      "benefits": {
+        "earlyAccess": "プラットフォームへの早期アクセス",
+        "discount": "最初の3ヶ月間30%割引",
+        "limited": "10社限定"
+      },
+      "ctaApply": "パートナープログラムに申し込む",
+      "ctaHow": "仕組みを見る",
+      "imageAlt": "MCSプラットフォーム メッセージングインターフェース"
+    },
+    "credibility": {
+      "description": "言語と国境を越えて活動する組織向けに設計されています。MCSは、チームが言語に関係なくコミュニケーション、調整、協力できるようにします。",
+      "tags": {
+        "multilingual": "🌐 多言語コミュニケーション",
+        "crossBorder": "🤝 国境を越えたコラボレーション",
+        "international": "🏢 国際チーム調整"
+      }
+    },
+    "explanation": {
+      "label": "プログラムについて",
+      "heading": "創設パートナープログラムとは？",
+      "subheading": "前向きな思考を持つ少数の組織のための独自の早期アクセス機会。",
+      "earlyAccess": {
+        "title": "早期アクセス機会",
+        "description": "MCS創設パートナープログラムは、MCSプラットフォームのパイロット立ち上げに参加する少数の組織を招待します。選ばれたパートナーは、プラットフォームへの早期アクセスを獲得し、本格的な商業展開前にシステムを洗練させるために製品チームと直接作業します。"
+      },
+      "whatYouGet": {
+        "title": "見返りとして得られるもの",
+        "description": "パートナーは、限定的な立ち上げインセンティブ（最初の3ヶ月間のサブスクリプションが30%割引）と、優先オンボーディングサポート、およびパイロット期間中にMCS製品チームへの直接的なアクセスを受けます。"
+      }
+    },
+    "benefits": {
+      "label": "プログラム特典",
+      "heading": "創設パートナーの特典",
+      "subheading": "MCS創設パートナーとして確認されたパートナーが受けられるすべての特典。",
+      "discount": {
+        "title": "30%立ち上げ割引",
+        "description": "MCSサブスクリプションの最初の3ヶ月間、30%割引を受けられます。"
+      },
+      "earlyAccess": {
+        "title": "プラットフォーム早期アクセス",
+        "description": "本格的な公開前に、MCSシステムを使用する最初の組織の1つになります。"
+      },
+      "onboarding": {
+        "title": "優先オンボーディングサポート",
+        "description": "私たちのチームがセットアップ、設定、オンボーディングプロセスを直接サポートします。"
+      },
+      "feedback": {
+        "title": "製品フィードバックの影響力",
+        "description": "あなたの直接的なフィードバックが、MCS製品ロードマップと機能の優先順位を形作るのに役立ちます。"
+      },
+      "access": {
+        "title": "製品チームへの直接アクセス",
+        "description": "パイロット期間中、MCS製品チームと直接コミュニケーションを取ることができます。"
+      },
+      "status": {
+        "title": "創設パートナーの地位",
+        "description": "MCSプラットフォームの構築を支援した創設組織として認められます。"
+      },
+      "cta": "プログラムに申し込む"
+    },
+    "whoIsThisFor": {
+      "label": "理想的な参加者",
+      "heading": "このプログラムの対象者",
+      "subheading": "このプログラムは、迅速に行動し、MCSチームと緊密に協力する準備ができている組織に最適です。",
+      "criteria": {
+        "multiLanguage": "複数の言語で運営している",
+        "crossBorder": "国際的または国境を越えたチームで働いている",
+        "earlyAccess": "新興コミュニケーション技術への早期アクセスを望んでいる",
+        "feedback": "構造化された製品フィードバックを提供する意欲がある",
+        "commitment": "3ヶ月間のパイロットエンゲージメントにコミットできる"
+      },
+      "typicalApplicants": "一般的な申請者",
+      "applicantTypes": {
+        "midSized": "中規模企業",
+        "japanese": "フィリピンの日系企業",
+        "startups": "スタートアップ",
+        "technology": "テクノロジー企業",
+        "international": "国際業務チーム"
+      }
+    },
+    "platformPreview": {
+      "label": "プラットフォームプレビュー",
+      "heading": "MCSプラットフォームの実際の動作をご覧ください",
+      "subheading": "パイロット期間中にチームが使用するものの最初のご紹介。",
+      "workspace": "ワークスペースダッシュボード",
+      "messaging": "リアルタイム多言語メッセージング"
+    },
+    "howItWorks": {
+      "label": "プログラムプロセス",
+      "heading": "プログラムの仕組み",
+      "subheading": "申請からパイロット開始までの5つの簡単なステップ。",
+      "steps": {
+        "step1": {
+          "title": "申請を提出",
+          "description": "以下の短い申請フォームに記入してください。"
+        },
+        "step2": {
+          "title": "資格審査",
+          "description": "私たちのチームが3営業日以内に申請を審査します。"
+        },
+        "step3": {
+          "title": "製品デモンストレーション",
+          "description": "MCSプラットフォームのライブデモンストレーションに参加してください。"
+        },
+        "step4": {
+          "title": "パートナー確認",
+          "description": "創設パートナーの確認と請求書を受け取ります。"
+        },
+        "step5": {
+          "title": "3ヶ月間のパイロット開始",
+          "description": "チームがオンボーディングされ、パイロットが開始されます。"
+        }
+      },
+      "cta": "今すぐ申し込む"
+    },
+    "pilotTerms": {
+      "label": "パイロットプログラム構造",
+      "heading": "パイロットプログラムの条件",
+      "subheading": "創設パートナー向けのシンプルで透明性のある条件。",
+      "during": {
+        "title": "パイロット期間中（3ヶ月間）",
+        "items": {
+          "discount": "最初の3ヶ月間、30%割引のサブスクリプション",
+          "invoice": "パイロットサブスクリプションはアクティベーション前に前払い請求",
+          "onboarding": "優先オンボーディングサポートが提供されます",
+          "access": "MCS製品チームへの直接アクセス"
+        }
+      },
+      "after": {
+        "title": "パイロット期間終了後",
+        "items": {
+          "pricing": "サブスクリプションは標準価格で継続",
+          "billing": "請求は通常の月次サブスクリプションに移行",
+          "platformAccess": "フル機能セットでプラットフォームへの継続的なアクセス",
+          "recognition": "創設パートナーの認識を保持"
+        }
+      }
+    },
+    "scarcity": {
+      "heading": "限定創設パートナー枠",
+      "description": "適切なオンボーディングと緊密なコラボレーションを確保するため、プログラムは10組織に厳密に制限されています。枠が埋まり次第、プログラムは締め切られます。",
+      "slotsRemaining": "10枠中3枠が埋まっています — 残り7枠",
+      "cta": "枠を確保する"
+    },
+    "applicationForm": {
+      "label": "今すぐ申し込む",
+      "heading": "創設パートナープログラムに申し込む",
+      "subheading": "以下のフォームに記入してください。3営業日以内に当社チームからご連絡いたします。",
+      "fields": {
+        "company": "会社名 *",
+        "companyPlaceholder": "会社名を入力してください",
+        "industry": "業界 *",
+        "industryPlaceholder": "業界を選択",
+        "industryOptions": {
+          "technology": "テクノロジー",
+          "manufacturing": "製造業",
+          "retail": "小売 / Eコマース",
+          "financial": "金融サービス",
+          "healthcare": "ヘルスケア",
+          "logistics": "物流",
+          "professional": "プロフェッショナルサービス",
+          "other": "その他"
+        },
+        "country": "国 *",
+        "countryPlaceholder": "例: フィリピン、日本",
+        "employees": "従業員数 *",
+        "employeesPlaceholder": "範囲を選択",
+        "employeesOptions": {
+          "range1": "1–50名",
+          "range2": "51–200名",
+          "range3": "201–500名",
+          "range4": "501–1,000名",
+          "range5": "1,000名以上"
+        },
+        "name": "担当者名 *",
+        "namePlaceholder": "フルネーム",
+        "email": "メールアドレス *",
+        "emailPlaceholder": "you@company.com",
+        "phone": "電話番号",
+        "phonePlaceholder": "+63 または +81...",
+        "usecase": "使用目的*",
+        "usecasePlaceholder": "使用目的を選択",
+        "usecaseOptions": {
+          "communication": "多言語チームコミュニケーション",
+          "collaboration": "国境を越えたコラボレーション",
+          "support": "国際カスタマーサポート",
+          "operations": "地域を越えた内部業務",
+          "other": "その他"
+        },
+        "message": "他にお知らせいただきたいことはありますか？",
+        "messagePlaceholder": "チーム、言語ニーズ、目標について教えてください..."
+      },
+      "errors": {
+        "requiredFields": "送信前にすべての必須フィールドを入力してください。"
+      },
+      "success": "ご応募ありがとうございます！MCSチームから間もなくご連絡いたします。",
+      "submitButton": "申請を送信",
+      "submitting": "送信中...",
+      "requiredNote": "* 必須フィールド。送信することにより、申請に関してMCSチームから連絡を受けることに同意します。"
+    },
+    "finalCta": {
+      "label": "お見逃しなく",
+      "heading": "MCSの未来を形作るお手伝いを",
+      "description": "MCSプラットフォームを使用する最初のグループに参加し、多言語コラボレーションがどのように構築されるかを定義するのに貢献してください。",
+      "notice": "今すぐお申し込みください — 創設パートナー枠は10社限定です。",
+      "cta": "今すぐ申し込む"
+    },
+    "footer": {
+      "copyright": "© 2025 MCS — 多言語コミュニケーションシステム。全著作権所有。"
+    }
   }
 }

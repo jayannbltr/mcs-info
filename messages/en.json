@@ -178,5 +178,223 @@
   },
   "footer": {
     "copyright": "© 2026 MCS – Easycom Japan Philippines Inc. All rights reserved."
+  },
+  "partnerProgram": {
+    "hero": {
+      "badge": "Founding Partner Program",
+      "heading": "Become a ",
+      "headingAccent": "Founding Partner",
+      "headingEnd": " of MCS",
+      "subheading": "Join a limited group of organizations participating in the pilot launch of the MCS platform and help shape the future of multilingual collaboration.",
+      "benefits": {
+        "earlyAccess": "Early access to the platform",
+        "discount": "30% launch discount for the first 3 months",
+        "limited": "Limited to 10 companies only"
+      },
+      "ctaApply": "Apply for Partner Program",
+      "ctaHow": "See How It Works",
+      "imageAlt": "MCS Platform Messaging Interface"
+    },
+    "credibility": {
+      "description": "Designed for organizations working across languages and borders. MCS enables teams to communicate, coordinate, and collaborate — regardless of language.",
+      "tags": {
+        "multilingual": "🌐 Multilingual Communication",
+        "crossBorder": "🤝 Cross-Border Collaboration",
+        "international": "🏢 International Team Coordination"
+      }
+    },
+    "explanation": {
+      "label": "About the Program",
+      "heading": "What is the Founding Partner Program?",
+      "subheading": "A unique early-access opportunity for a small group of forward-thinking organizations.",
+      "earlyAccess": {
+        "title": "Early Access Opportunity",
+        "description": "The MCS Founding Partner Program invites a small group of organizations to participate in the pilot launch of the MCS platform. Selected partners gain early platform access and work directly with the product team to help refine the system before full commercial rollout."
+      },
+      "whatYouGet": {
+        "title": "What You Get in Return",
+        "description": "In return, partners receive a limited-time launch incentive — a 30% discount on the first 3 months of subscription — along with priority onboarding support and a direct line to the MCS product team throughout the pilot phase."
+      }
+    },
+    "benefits": {
+      "label": "Program Benefits",
+      "heading": "Founding Partner Benefits",
+      "subheading": "Everything you receive as a confirmed MCS Founding Partner.",
+      "discount": {
+        "title": "30% Launch Discount",
+        "description": "Receive a 30% discount on the first 3 months of your MCS subscription."
+      },
+      "earlyAccess": {
+        "title": "Early Platform Access",
+        "description": "Be among the first organizations to use the MCS system before full public launch."
+      },
+      "onboarding": {
+        "title": "Priority Onboarding Support",
+        "description": "Our team assists directly with your setup, configuration, and onboarding process."
+      },
+      "feedback": {
+        "title": "Product Feedback Influence",
+        "description": "Your direct feedback helps shape the MCS product roadmap and feature priorities."
+      },
+      "access": {
+        "title": "Direct Product Team Access",
+        "description": "Communicate directly with the MCS product team throughout the pilot period."
+      },
+      "status": {
+        "title": "Founding Partner Status",
+        "description": "Be recognized as a founding organization that helped build the MCS platform."
+      },
+      "cta": "Apply for the Program"
+    },
+    "whoIsThisFor": {
+      "label": "Ideal Participants",
+      "heading": "Who This Program is For",
+      "subheading": "This program is best suited for organizations ready to move quickly and collaborate closely with the MCS team.",
+      "criteria": {
+        "multiLanguage": "Operate across multiple languages",
+        "crossBorder": "Work with international or cross-border teams",
+        "earlyAccess": "Want early access to emerging communication technology",
+        "feedback": "Are willing to provide structured product feedback",
+        "commitment": "Can commit to a 3-month pilot engagement"
+      },
+      "typicalApplicants": "Typical Applicants Include",
+      "applicantTypes": {
+        "midSized": "Mid-sized Companies",
+        "japanese": "Japanese Companies in PH",
+        "startups": "Startups",
+        "technology": "Technology Companies",
+        "international": "International Operations Teams"
+      }
+    },
+    "platformPreview": {
+      "label": "Platform Preview",
+      "heading": "See the MCS Platform in Action",
+      "subheading": "A first look at what your team will be working with during the pilot.",
+      "workspace": "Workspace Dashboard",
+      "messaging": "Real-Time Multilingual Messaging"
+    },
+    "howItWorks": {
+      "label": "Program Process",
+      "heading": "How the Program Works",
+      "subheading": "Five simple steps from application to pilot activation.",
+      "steps": {
+        "step1": {
+          "title": "Submit Application",
+          "description": "Complete the short application form below."
+        },
+        "step2": {
+          "title": "Qualification Review",
+          "description": "Our team reviews your application within 3 business days."
+        },
+        "step3": {
+          "title": "Product Walkthrough",
+          "description": "Attend a live walkthrough of the MCS platform."
+        },
+        "step4": {
+          "title": "Partner Confirmation",
+          "description": "Receive your Founding Partner confirmation and invoice."
+        },
+        "step5": {
+          "title": "Start 3-Month Pilot",
+          "description": "Your team is onboarded and the pilot begins."
+        }
+      },
+      "cta": "Apply Now"
+    },
+    "pilotTerms": {
+      "label": "Pilot Program Structure",
+      "heading": "Pilot Program Terms",
+      "subheading": "Simple, transparent terms for Founding Partners.",
+      "during": {
+        "title": "During the Pilot (3 Months)",
+        "items": {
+          "discount": "30% discounted subscription for the first 3 months",
+          "invoice": "Pilot subscription invoiced upfront before activation",
+          "onboarding": "Priority onboarding support provided",
+          "access": "Direct access to the MCS product team"
+        }
+      },
+      "after": {
+        "title": "After the Pilot Period",
+        "items": {
+          "pricing": "Subscription continues at standard pricing",
+          "billing": "Billing shifts to regular monthly subscription",
+          "platformAccess": "Continued platform access with full feature set",
+          "recognition": "Retained Founding Partner recognition"
+        }
+      }
+    },
+    "scarcity": {
+      "heading": "Limited Founding Partner Slots",
+      "description": "To ensure proper onboarding and close collaboration, the program is strictly limited to 10 organizations. Once slots are filled, the program will close.",
+      "slotsRemaining": "3 of 10 slots filled — 7 remaining",
+      "cta": "Secure Your Slot"
+    },
+    "applicationForm": {
+      "label": "Apply Now",
+      "heading": "Apply for the Founding Partner Program",
+      "subheading": "Complete the form below and our team will be in touch within 3 business days.",
+      "fields": {
+        "company": "Company Name *",
+        "companyPlaceholder": "Your company name",
+        "industry": "Industry *",
+        "industryPlaceholder": "Select industry",
+        "industryOptions": {
+          "technology": "Technology",
+          "manufacturing": "Manufacturing",
+          "retail": "Retail / E-commerce",
+          "financial": "Financial Services",
+          "healthcare": "Healthcare",
+          "logistics": "Logistics",
+          "professional": "Professional Services",
+          "other": "Other"
+        },
+        "country": "Country *",
+        "countryPlaceholder": "e.g. Philippines, Japan",
+        "employees": "Number of Employees *",
+        "employeesPlaceholder": "Select range",
+        "employeesOptions": {
+          "range1": "1–50",
+          "range2": "51–200",
+          "range3": "201–500",
+          "range4": "501–1,000",
+          "range5": "1,000+"
+        },
+        "name": "Contact Name *",
+        "namePlaceholder": "Full name",
+        "email": "Email Address *",
+        "emailPlaceholder": "you@company.com",
+        "phone": "Phone Number",
+        "phonePlaceholder": "+63 or +81...",
+        "usecase": "Intended Use*",
+        "usecasePlaceholder": "Select inteded use",
+        "usecaseOptions": {
+          "communication": "Multilingual team communication",
+          "collaboration": "Cross-border collaboration",
+          "support": "International customer support",
+          "operations": "Internal operations across regions",
+          "other": "Other"
+        },
+        "message": "Anything else you'd like us to know?",
+        "messagePlaceholder": "Tell us about your team, language needs, or goals..."
+      },
+      "errors": {
+        "requiredFields": "Please complete all required fields before submitting."
+      },
+      "success": "Thank you for applying! The MCS team will contact you soon.",
+      "submitButton": "Submit Application",
+      "submitting": "Submitting...",
+      "requiredNote": "* Required fields. By submitting, you agree to be contacted by the MCS team regarding your application."
+    },
+    "finalCta": {
+      "label": "Don't Miss Out",
+      "heading": "Help Shape the Future of MCS",
+      "description": "Join the first group of organizations using the MCS platform and help define how multilingual collaboration is built.",
+      "notice": "Apply today — only 10 founding partner slots available.",
+      "cta": "Apply Now"
+    },
+    "footer": {
+      "copyright": "© 2025 MCS — Multilingual Communication System. All rights reserved."
+    }
   }
 }

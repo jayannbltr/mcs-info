@@ -1,4 +1,4 @@
-import { PartnerProgram } from "@/components/partner-program"
+import { PartnerProgramTranslated } from "@/components/partner-program-translated"
 
 export const metadata = {
   title: "MCS Founding Partner Program | MCS",
@@ -7,5 +7,5 @@ export const metadata = {
 }
 
 export default function PartnerProgramPage() {
-  return <PartnerProgram />
+  return <PartnerProgramTranslated />
 }
