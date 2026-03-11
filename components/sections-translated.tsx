@@ -467,7 +467,7 @@ export function FoundingPartnerSectionTranslated() {
               </div>
 
               <a
-                href="#partner"
+                href="/partner-program"
                 className="inline-flex items-center gap-2.5 rounded-xl bg-primary px-8 py-3.5 text-base font-semibold text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
               >
                 {t("applyNow")}
@@ -613,7 +613,7 @@ export function CtaSectionTranslated() {
                   <ArrowRight className="h-4 w-4" />
                 </a>
                 <a
-                  href="#partner"
+                  href="/partner-program"
                   className="inline-flex items-center gap-2.5 rounded-xl border-2 border-primary-foreground bg-transparent px-6 py-3 text-sm md:px-8 md:py-3.5 md:text-base font-semibold text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:bg-primary-foreground/10 hover:shadow-lg"
                 >
                   {t("applyPartner")}

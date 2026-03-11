@@ -61,7 +61,7 @@ export function HeroTranslated() {
               <ArrowRight className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
             </a>
             <a
-              href="#partner"
+              href="/partner-program"
               className="inline-flex w-full items-center justify-center gap-2.5 rounded-xl bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg sm:w-auto sm:px-7 sm:py-3.5 sm:text-base"
             >
               {t("exploreFeatures")}

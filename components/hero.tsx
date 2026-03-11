@@ -65,7 +65,7 @@ export function Hero() {
               href="#partner"
               className="inline-flex w-full items-center justify-center gap-2.5 rounded-xl bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg sm:w-auto sm:px-7 sm:py-3.5 sm:text-base"
             >
-              Apply for Founding Partner Program
+              Apply for Partner Program
             </a>
           </div>
         </div>
